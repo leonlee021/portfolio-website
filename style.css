@@ -67,6 +67,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 1.4rem;
 }
 
 #heading {
@@ -133,11 +134,12 @@ body {
 }
 
 #sectionone__greeting {
-  font-size: 3.8rem;
+  font-size: 3.5rem;
 }
 
-.sectionone {
+#sectionone {
   margin: 15px 0px;
+  width: 100%;
 }
 
 #sectionone__name {
@@ -150,7 +152,7 @@ span {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-shadow: 3px 3px 2px white;
-  font-size: 4.4rem;
+  font-size: 4rem;
 }
 
 span:hover {
@@ -241,6 +243,15 @@ span:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#sectionthree__description {
+  width: 85%;
+}
+
+#sectionfour__heading {
+  font-size: 2.8rem;
+  padding: 20px;
 }
 
 @media (max-width: 500px) {
