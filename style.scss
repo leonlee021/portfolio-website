@@ -56,7 +56,7 @@ body{
     position:relative;
 }
 
-#topheading{
+#heading{
     display: flex;
     justify-content: space-between;
     margin: 0px 0px;
@@ -66,7 +66,7 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-#nameheading{
+#heading__name{
     font-size: 2rem;
     cursor: pointer;
     text-shadow: 0px -2.5px 3px rgb(0, 217, 255);
@@ -75,38 +75,35 @@ body{
     color: rgb(255, 255, 255);
 }
 
-#nameheading:hover{
+#heading__name:hover{
     font-size:2.2rem;
 }
 
-#headinglinks{
+#heading__links{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 }
 
-.headinglinks{
+.heading__links{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.headinglinks:hover{
+.heading__links:hover{
     color: rgb(0, 217, 255);
 }
 
 .section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
-
-#sectiononetext{
-    margin-left: 14%;
-    margin-top: 30vh;
-}
-
-#greeting{
+#sectionone__greeting{
     font-size: 3.8rem;
 }
 
@@ -114,7 +111,7 @@ body{
     margin: 15px 0px;
 }
 
-#nameintro{
+#sectionone__name{
     font-size: 3rem;
 }
 
@@ -130,25 +127,73 @@ span:hover{
     margin-left: 1%;
 }
 
-#sectiontwotext{
-    margin-top: 40vh;
+#sectiontwo__text{
+    // margin-top: 30vh;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-#aboutmeheading{
+#sectiontwo__heading{
     font-size: 2.8rem;
     padding: 20px;
-    // text-shadow: 0px -2.5px 3px rgb(0, 217, 255);
 }
 
-#aboutme{
+#sectiontwo__aboutme{
     width: 50%;
     padding: 20px;
     font-size: 1.5rem;
 }
 
+#sectionthree__text{
+    margin-top: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    // height: 100vh;
+}
+
+#sectionthree__heading{
+    font-size: 2.8rem;
+    padding: 20px;
+}
+
+#sectionthree__projects{
+    // width: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // justify-content: center;
+}
+
+.sectionthree__project{
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.sectionthree__cover{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 35px;
+    cursor: pointer;
+    min-width: none;
+}
+
+#sectionthree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 500px) {
     #topheading {
