@@ -126,7 +126,8 @@ span{
 }
 
 span:hover{
-    margin-left: 1%;
+    font-size: 4.3rem;
+    // margin-left: 0.5%;
 }
 
 #sectiontwo__text{
@@ -204,6 +205,25 @@ span:hover{
 #sectionfour__heading{
     font-size: 2.8rem;
     padding: 20px;
+}
+
+.sectionfour__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sectionfour__logo{
+    width: 40px;
+    cursor: pointer;
+}
+
+.sectionfour__contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
 }
 
 @media (max-width: 500px) {
