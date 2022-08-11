@@ -519,7 +519,7 @@ span:hover {
     border-color: black;
     border-width: 3px;
     height: 70px;
-    width: 70px;
+    width: 50px;
     overflow: hidden;
     border-radius: 35px;
     cursor: pointer;
