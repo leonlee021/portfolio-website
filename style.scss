@@ -310,6 +310,9 @@ span:hover{
     #sectionone{
         margin: 15px 0px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #sectionone__text{
@@ -404,8 +407,8 @@ span:hover{
         border-style: solid;
         border-color: rgb(0, 0, 0);
         border-width: 3px;
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         overflow: hidden;
         border-radius: 35px;
         cursor: pointer;

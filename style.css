@@ -394,6 +394,15 @@ span:hover {
   #sectionone {
     margin: 15px 0px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #sectionone__text {
     display: -webkit-box;
@@ -509,8 +518,8 @@ span:hover {
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     overflow: hidden;
     border-radius: 35px;
     cursor: pointer;
